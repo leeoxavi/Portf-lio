@@ -120,13 +120,15 @@ h2{
 /* SOBRE */
 #sobre{
     background-color: whitesmoke;    
-    padding: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 
 /* PORTFÓLIO */ 
-#portfolio{
-    padding: 100px;
+#portfolio{    
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 
