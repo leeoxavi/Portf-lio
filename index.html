@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">    <link rel="stylesheet" href="css/style.css">   
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </head>
+  <body>
+
+<!-- Navbar -->
+    <section id ="nav-bar">
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+               <a class="navbar-brand" type="button" href="#"><img src="./img/imagem.jpg" alt="logo-do-site"></a> 
+               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="toggle Navegations">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id ="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#sobre">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#portfolio">Portfólio</a>
+                        </li> 
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contato">Contato</a>
+                        </li>                      
+                    </ul>                    
+                </div>              
+            </div>
+        </nav>       
+    </section>
+
+ <!-- Sobre -->
+ <img class="botton-img" src="img/wave1.png" alt="fundo do site em efeito de onda">                
+     <section id="banner">
+        <div  class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p class="promo-title">Olá, Sou Leonardo Xavier Full Stack Developer</p>
+                    <P>Este é meu Portfólio oficial.
+                        Todos os projetos desenvolvidos serão postados nessa página.</p>                        
+                       <!-- <div class="btn">
+                                <a href="#contato" class="nav-link">Contato</a>
+                                <a href="/download/curriculo.pdf" download="curriculo.pdf" type="application/pdf">Baixar Currículo</a>   
+                            </div>    -->                     
+                         <div class="row" style="width: 500px;">
+                            <div class="col-6 text-center" >
+                              <button  class="btn btn-warning">Contato</button>
+                            </div>
+                            <div class="col-6 text-center">
+                              <button class="btn btn-warning" >Baixar Currículo</button>
+                            </div>
+                          </div>                                   
+                </div>                                
+                <div class="col-md-6">
+                    <img class="img-fluit" src="/img/foto.png" alt="Minha foto de perfil"/>
+                </div>
+           </div>
+        </div>
+     </section>       
+
+<!-- body -->
+    <section id="sobre">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="offset-2 col-8">
+            <h2 class="sobre">SOBRE</h2>
+            <p> Durante minha trajetória acadêmica, tenho me dedicado à formação em Análise e Desenvolvimento de Sistemas e 
+                tive a oportunidade de participar do projeto Programadores Cariocas Full Stack, em parceria com a prefeitura do Rio de Janeiro. 
+                Ao longo dessa experiência, pude desenvolver projetos utilizando diversas tecnologias, incluindo HTML, CSS, JavaScript, 
+                Node.js, React.js, API e MySQL. Acredito que o aprendizado deve ser constante e busco me manter atualizado em relação às 
+                tecnologias mais recentes, de forma a estar preparado para os desafios que surgem no mercado de trabalho. Sou uma pessoa 
+                comprometida e dedicada, disposta a aprender novas habilidades e a me adaptar às mudanças que se apresentam. Tenho consciência 
+                de que o mercado de tecnologia é bastante dinâmico e exige uma postura proativa dos profissionais, por isso estou sempre em 
+                busca de evolução contínua, tanto como profissional quanto como pessoa. Acredito que essa atitude é fundamental para 
+                alcançar o sucesso e enfrentar os desafios que a carreira pode apresentar.</p>            
+            </div>
+         </div>
+        </div>
+    </section>  
+
+    <!--PORTFÓLIO-->
+    <section id="portfolio">
+        <div class="container">                  
+            <div class="row">              
+            <h2>PORTFÓLIO</h2>    
+                <div class="col-md-4">    
+                        <img class="services-img" src="img/construcao.jpg">
+                        <h4>Projeto 1</h4>
+                        <p>Lorem ipsum dolor, sit amet consectetur 
+                            adipisicing elit. Laboriosam recusandae 
+                            suscipit ullam at non, accusantium sed 
+                            accusamus quis qui quaerat nulla nemo 
+                            repellat numquam dicta, eveniet tempora 
+                            quisquam dignissimos harum.</p>
+                    </div>
+
+                    <div class="col-md-4">
+                        <img class="services-img" src="img/construcao.jpg">
+                        <h4>Projeto 2</h4>
+                        <p>Lorem ipsum dolor, sit amet consectetur 
+                            adipisicing elit. Laboriosam recusandae 
+                            suscipit ullam at non, accusantium sed 
+                            accusamus quis qui quaerat nulla nemo 
+                            repellat numquam dicta, eveniet tempora 
+                            quisquam dignissimos harum.</p>
+                    </div>
+
+                    <div class="col-md-4">
+                        <img class="services-img" src="img/construcao.jpg">
+                        <h4>Projeto 3</h4>
+                        <p>Lorem ipsum dolor, sit amet consectetur 
+                            adipisicing elit. Laboriosam recusandae 
+                            suscipit ullam at non, accusantium sed 
+                            accusamus quis qui quaerat nulla nemo 
+                            repellat numquam dicta, eveniet tempora 
+                            quisquam dignissimos harum.</p>
+                    </div>
+
+                    <div class="col-md-4">
+                        <img class="services-img" src="img/construcao.jpg">
+                        <h4>Projeto 4</h4>
+                        <p>Lorem ipsum dolor, sit amet consectetur 
+                            adipisicing elit. Laboriosam recusandae 
+                            suscipit ullam at non, accusantium sed 
+                            accusamus quis qui quaerat nulla nemo 
+                            repellat numquam dicta, eveniet tempora 
+                            quisquam dignissimos harum.</p>
+                    </div>
+
+                    <div class="col-md-4">
+                        <img class="services-img" src="img/construcao.jpg">
+                        <h4>Projeto 5</h4>
+                        <p>Lorem ipsum dolor, sit amet consectetur 
+                            adipisicing elit. Laboriosam recusandae 
+                            suscipit ullam at non, accusantium sed 
+                            accusamus quis qui quaerat nulla nemo 
+                            repellat numquam dicta, eveniet tempora 
+                            quisquam dignissimos harum.</p>
+                    </div>
+
+                    <div class="col-md-4">
+                        <img class="services-img" src="img/construcao.jpg">
+                        <h4>Projeto 6</h4>
+                        <p>Lorem ipsum dolor, sit amet consectetur 
+                            adipisicing elit. Laboriosam recusandae 
+                            suscipit ullam at non, accusantium sed 
+                            accusamus quis qui quaerat nulla nemo 
+                            repellat numquam dicta, eveniet tempora 
+                            quisquam dignissimos harum.</p>
+                    </div>
+                </div>
+            </div>       
+        </div>
+    </section>
+
+<!-- CONTATO -->
+<section id="contato">
+        <div class="container">
+          <div class="row"></div>
+          <h2>CONTATO</h2>            
+        </div>
+        <div class="localizacao">
+            <p>Localizção:</p>
+            <img src="/img/localizacao2.png" class="img-logo" alt="imagem de localização.">
+            <p>Rio de Janeiro - RJ</p>
+        </div>
+    <section id="contato-link">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 col-md-3">
+                <a href="https://www.linkedin.com/in/leonardoxgarcia/"><img src="/img/linkedin.png" class="img-logo" alt="logo do Linkedin">
+                <div><a class="nav-link-l" href="https://www.linkedin.com/in/leonardoxgarcia/">Linkedin</a></div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                    <a href="https://www.github.com/"><img src="/img/git.png" class="img-logo" alt="logo do Github"></a>
+                    <div><a class="nav-link-g" href="#">Github</a></div>              
+            </div>
+            <div class="col-sm-6 col-md-3">
+                    <a href="https://www.hotmail.com/"><img src="/img/email.png" class="img-logo" alt="logo do email"></a>
+                    <div><a class="nav-link-e" href="#">E-mail</a> </div>                    
+            </div>
+            <div class="col-sm-6 col-md-3">
+                    <a href="#"><img src="/img/wpp.png" class="img-logo" alt="logo do WhatsApp"></a>
+                   <div><a class="nav-link-w" href="#">WhatsApp</a></div>               
+            </div>
+        </div>
+    </section>
+</section> 
+<!-- FOOTER -->
+    <footer id="footer" class="text-light">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3">
+              <h2>LOGO</h2>
+            </div>
+            <div class="col-md-6">
+                <h4>© 2023 Leonardo Xavier Garcia.</h4>
+            </div>
+          </div>
+        </div>
+      </footer>
+      
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
+
+
+
+
+

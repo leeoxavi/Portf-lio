@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;500&display=swap');
+* {
+    font-family:'montserrat', sans-serif; 
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    align-items: center;
+    text-align: center;
+}
+
+/* BARRA DE NAVEGAÇÃO */ 
+#nav-bar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+} 
+.navbar {
+    background-image: linear-gradient(to right,#8a2be2, #8a2be2);
+    padding: 0 !important;
+}
+.navbar-brand img {
+    height: 40px;
+    padding-left: 20px;
+}
+.navbar-nav li{
+    padding: 0 10px;
+}
+.navbar-nav li a {
+    color: #fff!important;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+}
+.navbar-toggler {
+    outline: none !important;
+}
+.nav-link:hover{
+    background: #ffe400;
+    border-radius: 10px;
+    padding: 10px;
+    color: #8a2be2;
+    transition: .5s;
+
+}
+
+#btn2{
+    background-color: #25D366;
+}
+
+.btn{
+    color: #ffff;
+}
+.btn:hover{
+    color: #ffff;
+    background-color: #8a2be2; 
+}
+
+.botton-img{
+    background-image: linear-gradient(to right,#8a2be2, #8a2be2);
+
+}
+/* BODY */
+#banner {
+    color: #8a2be2;    ;
+    padding-top: 5%;
+    
+}
+
+.promo-title {
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 100px;
+}
+
+.play-btn {
+    width: 40px;
+    margin: 20px;
+}
+
+#banner a{
+    color: #ffff;
+    text-decoration: none;
+}
+
+.botton-img {
+    width: 100%;
+}
+
+
+.btn{
+	width: 300px;
+	height: 35px;
+	margin-top: 50px;
+	margin-left: 25%;
+}
+.btn a{
+	font-size: 15px;
+	background-color:#ffe400;
+	color: blueviolet;
+	padding: 10px 20px;
+	text-decoration: none;
+	border: 1px solid white;
+	margin: 0 5px;
+	border-radius: 10px;
+}
+.btn a:hover{
+	font-size: 18px;	
+	transition: .5s;
+	background-color:blueviolet;
+	color: white;
+}
+h2{
+    align-items: center;
+    text-align: center;
+}
+
+
+
+
+/* SOBRE */
+#sobre{
+    background-color: whitesmoke;
+}
+
+
+/* PORTFÓLIO */ 
+.portfolio{
+    border: 3px solid #ffe400 ;
+}
+
+
+/* CONTATO */ 
+#contato{    
+    background-color: whitesmoke;
+}
+.localizacao{
+    color: #8a2be2;
+    font-size: 20px;   
+}
+.nav-link-l, .nav-link-g, .nav-link-e, .nav-link-w{
+    text-decoration: none;  
+    color: #8a2be2; 
+    font-size: 20px;    
+}
+.img-logo {
+    width:  100px;
+    height: 100px;
+    padding: 20px;
+}
+#contato-link .nav-link-l:hover {
+	background: #0e76a8;
+	color: #FFFFFF;
+	border-radius: 20px;	
+	transition: .5s;
+    padding: 5px;
+}
+#contato-link .nav-link-g:hover {
+	background: #171515;
+	color: #FFFFFF;
+	border-radius: 20px;
+	transition: .5s;
+    padding: 5px;
+}
+#contato-link .nav-link-e:hover {
+	background: #00A4EF;
+	color: #FFFFFF;
+	border-radius: 20px;
+	transition: .5s;
+    padding: 5px;
+}
+#contato-link .nav-link-w:hover {
+	background: #25D366;
+	color: #FFFFFF;
+	border-radius: 20px;
+	transition: .5s;
+    padding: 5px;
+}
+
+/* FOOTER */
+footer{
+    background-color: #8a2be2;
+    border: 2px solid #ffe400 ;
+}
+footer h4{
+    font-size: 17px;
+}
