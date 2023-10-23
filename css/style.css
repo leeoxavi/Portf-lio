@@ -119,24 +119,26 @@ h2{
 
 /* SOBRE */
 #sobre{
-    background-color: whitesmoke;    
+    background-color: whitesmoke;  
     padding-top: 100px;
-    padding-bottom: 100px;
+    padding-bottom: 100px;  
+
 }
 
 
 /* PORTFÓLIO */ 
-#portfolio{    
+#portfolio{
     padding-top: 100px;
     padding-bottom: 100px;
 }
+
 
 
 /* CONTATO */ 
 #contato{    
     background-color: whitesmoke;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding: 100px;
+
 }
 .localizacao{
     color: #8a2be2;
@@ -184,8 +186,10 @@ h2{
 /* FOOTER */
 footer{
     background-color: #8a2be2;
-    border: 2px solid #ffe400 ;    
+    border: 2px solid #ffe400 ;
     padding: 10px;
+
+ 
 }
 footer h4{
     font-size: 15px;
