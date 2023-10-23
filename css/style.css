@@ -133,7 +133,8 @@ h2{
 /* CONTATO */ 
 #contato{    
     background-color: whitesmoke;
-    padding: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 .localizacao{
     color: #8a2be2;
