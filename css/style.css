@@ -43,9 +43,6 @@
 
 }
 
-#btn2{
-    background-color: #25D366;
-}
 
 .btn{
     color: #ffff;
@@ -130,6 +127,7 @@ h2{
 #portfolio{
     padding-top: 100px;
     padding-bottom: 100px;  
+
 }
 .services-img{
     margin-top: 50px;
